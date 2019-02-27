@@ -7,8 +7,9 @@
 .btn-truffle:hover,
 .btn-ganache:hover,
 .btn-drizzle:hover,
-.btn-eventbrite:hover {
-  background: #fff;
+.btn-eventbrite:hover,
+.btn-light-choc:hover {
+    background: #fff;
   color: #5e464d;
 }
 
@@ -51,5 +52,10 @@
 
 .btn-eventbrite {
   background: #f6682F;
+  color: #fff;
+}
+
+.btn-light-choc {
+  background: #5e464d;
   color: #fff;
 }
