@@ -1,5 +1,5 @@
-[
-  {
+{
+  "webinar-enterprise-solutions": {
     "title": "Building Blockchain Solutions for the Enterprise with Truffle",
     "start": "Tues, Mar 12, 2019, 4:00",
     "end": "4:45 PM GMT",
@@ -9,7 +9,7 @@
     "status": "open",
     "image": "/img/truffle-webinar-1.jpeg"
   },
-  {
+  "elevate-dublin": {
     "title": "Truffle Elevate: Dublin",
     "start": "Wed, Apr 24, 2019, 9:00 AM",
     "end": "Fri, Apr 26, 2019, 5:00 PM IST",
@@ -19,4 +19,4 @@
     "status": "open",
     "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F55021865%2F258066844538%2F1%2Foriginal.20190112-011100?w=800&auto=compress&rect=113%2C0%2C2444%2C1222&s=2a621f9ad4cabf7304c7e8b5a2c3eee5"
   }
-]
+}

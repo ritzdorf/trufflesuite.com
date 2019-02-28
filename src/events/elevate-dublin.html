@@ -4,46 +4,49 @@ layout: layout.hbs
 ---
 
 <nav class="nav trufflecon-nav justify-content-end">
-  <a class="nav-link scroll-link" href="#speakers">Why Attend?</a>
-  <a class="nav-link scroll-link" href="#location">Presenters</a>
+  <a class="nav-link scroll-link" href="#attend">Why Attend?</a>
+  <a class="nav-link scroll-link" href="#presenters">Presenters</a>
   <a class="nav-link scroll-link" href="#schedule">Schedule &amp; Workshops</a>
 </nav>
 
 <main role="main" class="trufflecon-content" style="position: relative;">
-  <div class="trufflecon-heading-bd"></div>
+  <div class="elevate-heading-bd"></div>
 
-  <div class="container-heading trufflecon-heading">
+  <div class="container-heading trufflecon-heading elevate-heading">
     <div class="row align-items-center">
       <div class="col text-center">
-        <h2 class="mb-0">Blockchain developers, set yourself apart with Truffle!</h2>
-        <a class="btn btn-truffle btn-lg" href="#">EARLY BIRD TICKETS AVAILABLE NOW</a>
+        <h2 class="mb-4">Blockchain developers, set yourself apart with Truffle!</h2>
+        <a class="btn btn-truffle btn-lg" href="https://www.eventbrite.com/e/truffle-elevate-dublin-2019-blockchain-development-workshop-tickets-53831596755">EARLY BIRD TICKETS AVAILABLE NOW</a>
       </div>
     </div>
   </div>
 </main>
 
-<main class="banner banner-drizzle pt-5 pb-5">
+<main class="banner banner-drizzle muted pt-5 pb-5">
   <div class="container">
     <div class="row justify-content-between">
-      <div class="col-3">
-        <h1>What is Truffle Elevate?</h1>
+      <div class="col-12 col-md-3">
+        <h1 class="heading-nocase">What is Truffle Elevate?</h1>
       </div>
 
-      <div class="col-8">
-        <h3>Truffle University is thrilled to host our first ever Truffle Elevate in Dublin, Ireland, from April 24 - 26 2019, at the Science Gallery Dublin!</h3>
-        <p>Our three-day deep dive blockchain develpment workshop, training, and community event is designed to upskill both traditional coder and blockchain developers by empowering them to leverage Truffle's tasty blockchain development suite and connect more seamlessly to the entire blockchain ecosystem. We're hosting these 3 day workshops around the globe to meet you, the Truffle community.</p>
+      <div class="col-12 col-md-8">
+        <h5>Truffle University is thrilled to host our first ever Truffle Elevate in Dublin, Ireland, from April 24 - 26 2019, at the Science Gallery Dublin!</h5>
+        <p class="mb-0">Our three-day deep dive blockchain develpment workshop, training, and community event is designed to upskill both traditional coder and blockchain developers by empowering them to leverage Truffle's tasty blockchain development suite and connect more seamlessly to the entire blockchain ecosystem. We're hosting these 3 day workshops around the globe to meet you, the Truffle community.</p>
       </div>
     </div>
   </div>
 </main>
 
-<main class="banner banner-light-cream pt-5 pb-5">
+<main class="banner banner-light-cream pt-5 pb-5 space-limited">
+  <img class="color-splash left" src="/img/color-splash.png" />
+  <img class="color-splash right" src="/img/color-splash.png" />
+
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col">
-        <h1 class="color-truffle">Space is limited.</h1>
+        <h1 class="color-truffle heading-nocase">Space is limited.</h1>
         <p>Reserve your seat now for special access and early-bird offers!</p>
-        <a class="btn btn-ganache btn-lg" href="#">Check out the schedule &amp; sign up for workshops!</a>
+        <a class="btn btn-ganache btn-lg scroll-link" href="#schedule">Check out the schedule &amp; sign up for workshops!</a>
       </div>
     </div>
   </div>
@@ -52,12 +55,12 @@ layout: layout.hbs
 <main class="banner banner-light-choc pt-5 pb-5">
   <div class="container">
     <div class="row justify-content-between">
-      <div class="col-3">
-        <h1>Why Attend?</h1>
+      <div class="col-12 col-md-3">
+        <h1 class="heading-nocase" id="attend">Why Attend?</h1>
       </div>
 
-      <div class="col-8">
-        <ul>
+      <div class="col-12 col-md-8">
+        <ul class="attend-elevate-list">
           <li>Advanced tactics for Smart Contracts &amp; Dapp Development</li>
           <li>Security for Smart Contracts &amp; Advanced Truffle Suite Tactics</li>
           <li>With over 1.4 million downloads we are the leaders in blockchain development</li>
@@ -75,110 +78,110 @@ layout: layout.hbs
   <div class="container">
     <div class="row">
       <div class="col">
-        <h1 class="text-center">Elevate your development skills with our world class Truffle Presenters, Developers and Trainers!</h1>
-        <ul class="list-unstyled">
-          <li class="media">
-            <img src="/img/trufflecon/ben-burns.jpg" class="mr-3 rounded-circle" alt="Ben Burns: Lead of Blockchain Services at Truffle">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1 color-truffle">BEN BURNS</h5>
-              Ben Burns currently serves as the Lead of Blockchain Services at Truffle. Since joining Truffle he’s taken over testrpc (now ganache-cli) development to improve the stability. He’s also overseen Truffle’s transition from being the Ethereum development tool of choice to the blockchain development tool of choice. He loves building simple, effective, and inexpensive solutions to very complex problems.
+        <h1 class="text-center mb-5 heading-nocase" id="presenters">Elevate your development skills with our world class Truffle Presenters, Developers and Trainers!</h1>
+        <div class="elevate-speaker-list">
+          <div class="media">
+            <img src="/img/trufflecon/ben-burns.jpg" class="mr-4 rounded-circle" alt="Ben Burns: Lead of Blockchain Services at Truffle">
+            <div class="media-body align-self-center">
+              <h3 class="mt-0 mb-1 color-truffle">BEN BURNS</h3>
+              <p>Ben Burns currently serves as the Lead of Blockchain Services at Truffle. Since joining Truffle he’s taken over testrpc (now ganache-cli) development to improve the stability. He’s also overseen Truffle’s transition from being the Ethereum development tool of choice to the blockchain development tool of choice. He loves building simple, effective, and inexpensive solutions to very complex problems.</p>
             </div>
-          </li>
+          </div>
 
-          <li class="media">
-            <img src="/img/trufflecon/josh-quintal.jpg" class="mr-3 rounded-circle" alt="Josh Quintal: Lead of Front-End & Design at Truffle">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1 color-truffle">JOSH QUINTAL</h5>
-              Josh Quintal currently serves as the Lead of Front-End & Design at Truffle. Josh is passionate about where the user meets the tech; this led to the creation of two products, Truffle Boxes and Drizzle. He also created “Pet Shop”, one of Ethereum’s most used beginner tutorials. Fun fact, Josh is the most stylish member of the Truffle team.
+          <div class="media">
+            <img src="/img/trufflecon/josh-quintal.jpg" class="mr-4 rounded-circle" alt="Josh Quintal: Lead of Front-End & Design at Truffle">
+            <div class="media-body align-self-center">
+              <h3 class="mt-0 mb-1 color-truffle">JOSH QUINTAL</h3>
+              <p>Josh Quintal currently serves as the Lead of Front-End & Design at Truffle. Josh is passionate about where the user meets the tech; this led to the creation of two products, Truffle Boxes and Drizzle. He also created “Pet Shop”, one of Ethereum’s most used beginner tutorials. Fun fact, Josh is the most stylish member of the Truffle team.</p>
             </div>
-          </li>
+          </div>
+
+          <div class="media">
+            <img src="/img/trufflecon/mike-seese.jpg" class="mr-4 rounded-circle" alt="Mike Seese: a core developer on the Truffle Enterprise Products team">
+            <div class="media-body align-self-center">
+              <h3 class="mt-0 mb-1 color-truffle">MIKE SEESE</h3>
+              <p>Although you’ll often find him wearing several hats, Mike Seese is a core developer on the Enterprise Products team. In addition to integrating the Truffle Suite to other ledgers and frameworks, he strives to bring the modern development experience to the blockchain community. A prototyper by trade, he loves piecing together cool, new projects.</p>
+            </div>
+          </div>
           
-          <li class="media">
-            <img src="/img/trufflecon/mike-seese.jpg" class="mr-3 rounded-circle" alt="Mike Seese: a core developer on the Truffle Enterprise Products team">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1 color-truffle">MIKE SEESE</h5>
-              Although you’ll often find him wearing several hats, Mike Seese is a core developer on the Enterprise Products team. In addition to integrating the Truffle Suite to other ledgers and frameworks, he strives to bring the modern development experience to the blockchain community. A prototyper by trade, he loves piecing together cool, new projects.
-            </div>
-          </li>
-
-          <li class="media">
-            <img src="/img/trufflecon/nick-dandrea.jpg" class="mr-3 rounded-circle" alt="Nicholas D'Andrea: Engineering lead for Truffle and the Truffle Debugger">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1 color-truffle">MIKE SEESE</h5>
+          <div class="media">
+            <img src="/img/trufflecon/nick-dandrea.jpg" class="mr-4 rounded-circle" alt="Nicholas D'Andrea: Engineering lead for Truffle and the Truffle Debugger">
+            <div class="media-body align-self-center">
+              <h3 class="mt-0 mb-1 color-truffle">NICHOLAS G. D'ANDREA</h3>
               G. Nicholas D'Andrea currently serves as engineering lead for Truffle and the Truffle Debugger. Ever since 2016, he has been obsessed with the decentralized future and working towards building core software components for the blockchain ecosystem. Besides his work on Truffle, he is a core contributor to the EthPM package management system and author of EIP-1123.
             </div>
-          </li>
+          </div>
 
-          <li class="media">
-            <img src="/img/trufflecon/nick-dandrea.jpg" class="mr-3 rounded-circle" alt="Kevin Bluer: Truffle’s Lead Enterprise Trainer">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1 color-truffle">KEVIN BLUER</h5>
+          <div class="media">
+            <img src="/img/trufflecon/kevin-bluer.jpg" class="mr-4 rounded-circle visible-sm" alt="Kevin Bluer: Truffle’s Lead Enterprise Trainer">
+            <div class="media-body align-self-center">
+              <h3 class="mt-0 mb-1 color-truffle">KEVIN BLUER</h3>
               Hailing from the UK, Kevin is Truffle’s Lead Enterprise Trainer. He’s building our world class training program from the ground up to train existing software developers to become Truffle-certified blockchain engineers. Outside of his work with Truffle, he has trained and mentored developers in cities around the globe including New York, Austin, London, Hong Kong, Shenzhen, and Kuala Lumpur.
             </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </main>
 
 <main class="banner banner-ganache pt-5 pb-5">
-  <div class="container">
+  <div class="container elevate-schedule-container">
     <div class="row justify-content-between">
-      <div class="col-3">
-        <h1>Schedule &amp; Training Workshops</h1>
+      <div class="col-12 col-md-3">
+        <h1 class="heading-nocase" id="schedule">Schedule &amp; Training Workshops</h1>
       </div>
 
-      <div class="col-8">
+      <div class="col-12 col-md-8">
         <h3>Day 1</h3>
 
         <div class="row">
-          <div class="col-4">
-            9:00am-12:00pm
+          <div class="col-12 col-sm-4">
+            <h4>9:00am-12:00pm</h4>
           </div>
 
-          <div class="col-8">
+          <div class="col-12 col-sm-8">
             <h4>Truffle Lectures, Paccar Theatre, Science Gallery Dublin</h4>
-            <p>
-              The Past, Present &amp; Future of Truffle<br/>
-              Accelerating Development with the Latest from the Truffle Suite<br/>
-              Building Dapp Frontends<br/>
-              Must Know Truffle Tips &amp; Tricks
-            </p>
+            <ul>
+              <li>The Past, Present &amp; Future of Truffle</li>
+              <li>Accelerating Development with the Latest from the Truffle Suite</li>
+              <li>Building Dapp Frontends</li>
+              <li>Must Know Truffle Tips &amp; Tricks</li>
+            </ul>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-4">
-            12:00pm-1:30pm
+          <div class="col-12 col-sm-4">
+            <h4>12:00pm-1:30pm</h4>
           </div>
 
-          <div class="col-8">
+          <div class="col-12 col-sm-8">
             <h4>Break for Lunch</h4>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-4">
-            1:45pm-5:00pm
+          <div class="col-12 col-sm-4">
+            <h4>1:45pm-5:00pm</h4>
           </div>
 
-          <div class="col-8">
+          <div class="col-12 col-sm-8">
             <h4>Truffle Labs, Paccar Theatre, Science Gallery Dublin &amp; Huckletree D2</h4>
-            <p>
-              Foundations of Ethereum / Your First Bite (of Truffle)<br/>
-              Building Maintainable / Complex DApps<br/>
-              Drizzle in Depth
-            </p>
+            <ul>
+              <li>Foundations of Ethereum / Your First Bite (of Truffle)</li>
+              <li>Building Maintainable / Complex DApps</li>
+              <li>Drizzle in Depth</li>
+            </ul>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-4">
-            5:00pm-7:00pm
+          <div class="col-12 col-sm-4">
+            <h4>5:00pm-7:00pm</h4>
           </div>
 
-          <div class="col-8">
+          <div class="col-12 col-sm-8">
             <h4>Networking Happy Hour</h4>
           </div>
         </div>
@@ -186,81 +189,81 @@ layout: layout.hbs
         <h3>Day 2</h3>
 
         <div class="row">
-          <div class="col-4">
-            9:00am-12:00pm
+          <div class="col-12 col-sm-4">
+            <h4>9:00am-12:00pm</h4>
           </div>
 
-          <div class="col-8">
+          <div class="col-12 col-sm-8">
             <h4>Truffle Lectures, Paccar Theatre, Science Gallery Dublin</h4>
-            <p>
-              The Landscape and Details of Building on an Enterprise Ledger<br/>
-              Blockchain (and Truffle) in the Enterprise<br/>
-              The Ins and Outs of Gas<br/>
-              Protect your DApp with Smart Practices in Contract Security
-            </p>
+            <ul>
+              <li>The Landscape and Details of Building on an Enterprise Ledger</li>
+              <li>Blockchain (and Truffle) in the Enterprise</li>
+              <li>The Ins and Outs of Gas</li>
+              <li>Protect your DApp with Smart Practices in Contract Security</li>
+            </ul>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-4">
-            12:00pm-1:30pm
+          <div class="col-12 col-sm-4">
+            <h4>12:00pm-1:30pm</h4>
           </div>
 
-          <div class="col-8">
+          <div class="col-12 col-sm-8">
             <h4>Break for Lunch</h4>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-4">
-            1:45pm-5:00pm
+          <div class="col-12 col-sm-4">
+            <h4>1:45pm-5:00pm</h4>
           </div>
 
-          <div class="col-8">
+          <div class="col-12 col-sm-8">
             <h4>Truffle Labs, Paccar Theatre, Science Gallery Dublin &amp; Huckletree D2</h4>
-            <p>
-              Building a Real-World DApp<br/>
-              Production Deploying, Forking, and Debugging--Oh my!<br/>
-              Building Enterprise Solutions with Truffle
-            </p>
+            <ul>
+              <li>Building a Real-World DApp</li>
+              <li>Production Deploying, Forking, and Debugging--Oh my!</li>
+              <li>Building Enterprise Solutions with Truffle</li>
+            </ul>
           </div>
         </div>
 
         <h3>Day 3</h3>
 
         <div class="row">
-          <div class="col-4">
-            9:00am-12:00pm
+          <div class="col-12 col-sm-4">
+            <h4>9:00am-12:00pm</h4>
           </div>
 
-          <div class="col-8">
+          <div class="col-12 col-sm-8">
             <h4>Paccar Theatre, Science Gallery Dublin</h4>
-            <p>
-              Hands-on with bleeding-edge features withing the Truffle Suite<br/>
-              Contract Upgradability / Migrations<br/>
-              Truffle Development Team Panel<br/>
-              Partner Presentations<br/>
-              Community Presentations
-            </p>
+            <ul>
+              <li>Hands-on with bleeding-edge features withing the Truffle Suite</li>
+              <li>Contract Upgradability / Migrations</li>
+              <li>Truffle Development Team Panel</li>
+              <li>Partner Presentations</li>
+              <li>Community Presentations</li>
+            </ul>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-4">
-            12:00pm-1:30pm
+          <div class="col-12 col-sm-4">
+            <h4>12:00pm-1:30pm</h4>
           </div>
 
-          <div class="col-8">
+          <div class="col-12 col-sm-8">
             <h4>Break for Lunch</h4>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-4">
-            2:00pm-5:00pm
+          <div class="col-12 col-sm-4">
+            <h4>2:00pm-5:00pm</h4>
           </div>
 
-          <div class="col-8">
+          <div class="col-12 col-sm-8">
             <h4>Closing Event</h4>
           </div>
         </div>
@@ -277,21 +280,21 @@ layout: layout.hbs
   <div class="container">
     <div class="row">
       <div class="col">
-        <h1>What developers are saying about Truffle events...</h1>
+        <h1 class="text-center mb-5 heading-nocase">What developers are saying about Truffle events...</h1>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-6">
-        <ul>
+      <div class="col-12 col-sm-6">
+        <ul class="elevate-quote-list">
           <li>"TruffleCon was really well executed, front to back."</li>
           <li>"TruffleCon was big enough to meet many people in the space, but small enough that everyone was accessible."</li>
           <li>"The Truffle community was great, so many fantastic conversations..."</li>
         </ul>
       </div>
 
-      <div class="col-6">
-        <ul>
+      <div class="col-12 col-sm-6">
+        <ul class="elevate-quote-list">
           <li>"The people I met were really wonderful, and I was able to connect with them in a meaningful way in such a short time."</li>
           <li>"I enjoyed meeting other people with similar experience levels and curiousities."</li>
           <li>"Truffle cares more about you are building versus what you can be sold."</li>

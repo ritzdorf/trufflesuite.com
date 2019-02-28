@@ -1,0 +1,97 @@
+.elevate-heading {
+  border-bottom: 5px solid #3fe0c5;
+}
+
+.elevate-heading-bd {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  background-image: url(/img/elevate/hero-hdr-dublin.jpg);
+  background-size: cover;
+  background-position: center center;
+  opacity: .3;
+  z-index: -1;
+}
+
+.space-limited {
+  position: relative;
+
+  .color-splash {
+    opacity: .15;
+    position: absolute;
+  
+    &.left {
+      left: 0;
+      bottom: 0;
+      transform: rotate(180deg);
+    }
+
+    &.right {
+      top: 0;
+      right: 0;
+    }
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+.attend-elevate-list {
+  list-style: square inside url("/img/check-mark.png");
+  padding-left: 0;
+
+  li:not(:last-child) {
+    margin-bottom: .75rem;
+  }
+}
+
+.elevate-speaker-list {
+  .media:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  img {
+    border: 3px solid #3fe0c5;
+    max-height: 200px;
+
+    @media (max-width: 575.98px) {
+      display: none;
+    }
+  }
+}
+
+.elevate-schedule-container {
+  .row {
+    margin-bottom: 1.5rem;
+  }
+  
+  h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0;
+
+    li:not(:last-child) {
+      margin-bottom: .667rem;
+    }
+  }
+}
+
+.elevate-quote-list {
+  font-style: italic;
+  font-weight: 600;
+  list-style-type: none;
+  padding-left: 0;
+
+  li:not(:last-child) {
+    margin-bottom: 1.25rem;
+  }
+}

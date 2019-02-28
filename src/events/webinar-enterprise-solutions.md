@@ -1,8 +1,6 @@
 ---
 layout: event-single.hbs
 ---
-# BUILDING BLOCKCHAIN SOLUTIONS FOR THE ENTERPRISE WITH TRUFFLE
-
 <div class="row">
   <div class="col-sm-6 mt-4">
     <h3 class="mb-3">Overview</h3>

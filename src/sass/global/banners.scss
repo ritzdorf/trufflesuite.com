@@ -32,10 +32,14 @@
 .banner-drizzle {
   background-color: #e911bd;
   color: #ffffff;
+
+  &.muted {
+    background-color: #ca4398;
+  }
 }
 
 .banner-ganache {
-  background-color: orange;
+  background-color: #e4a663;
   color: #ffffff;
 }
 

@@ -16,7 +16,7 @@ $(document).ready(function() {
     return buyButton.removeClass('scroll');
   });
 
-  $('.trufflecon-nav .scroll-link').click(function(event) {
+  $('.scroll-link').click(function(event) {
     event.preventDefault();
 
     var target = $(this.hash);
