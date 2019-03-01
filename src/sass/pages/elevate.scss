@@ -12,7 +12,7 @@
   background-image: url(/img/elevate/hero-hdr-dublin.jpg);
   background-size: cover;
   background-position: center center;
-  opacity: .4;
+  opacity: .65;
   z-index: -1;
 }
 
@@ -42,6 +42,7 @@
 
 .attend-elevate-list {
   list-style: square inside url("/img/check-mark.png");
+  list-style-position: outside;
   padding-left: 0;
 
   li:not(:last-child) {
@@ -86,6 +87,7 @@
 }
 
 .elevate-quote-list {
+  font-size: 1.2rem;
   font-style: italic;
   font-weight: 600;
   list-style-type: none;
